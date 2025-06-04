@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "Codeforces Contest Viewer",
+  "version": "1.0",
+  "description": "View upcoming Codeforces contests and add them to your Google Calendar.",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "permissions": [
+    "identity",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://accounts.google.com/*",
+    "https://www.googleapis.com/*",
+    "https://codeforces.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type":"module"
+  },
+  "oauth2": {
+    "client_id": "1069545777564-tp7lt91s8iovh1e54d8hm60q5u6j8d5o.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/calendar.events"
+    ]
+  }
+}
