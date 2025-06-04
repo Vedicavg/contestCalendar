@@ -1,4 +1,4 @@
-#Privacy Policy  
+## Privacy Policy  
   
 This extension uses Google Calendar access only to add Codeforces contests with your explicit permission.
 - No personal information is collected, stored, or shared.
