@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Codeforces Contest Viewer",
-  "version": "1.0",
+  "version": "2.0",
   "description": "View upcoming Codeforces contests and add them to your Google Calendar.",
   "icons": {
     "16": "icon.png",
